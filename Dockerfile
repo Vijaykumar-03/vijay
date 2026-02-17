@@ -1,12 +1,9 @@
-FROM node:18-alpine
+FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY package.json .
-RUN npm install
+COPY app.py .
 
-COPY . .
+EXPOSE 5000
 
-EXPOSE 3000
-
-CMD ["npm", "start"]
+CMD ["python", "app.py"]
