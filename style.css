@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #1f1f2e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #444;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #00e6e6;
+}
+
+.role {
+    font-size: 20px;
+    color: #ffcc70;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    color: #00ffcc;
+    border-left: 5px solid #00ffcc;
+    padding-left: 10px;
+}
+
+.about p {
+    line-height: 1.7;
+    color: #ddd;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-box {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    background: #29294d;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
